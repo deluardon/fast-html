@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore Basic Css</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="./Icon.png" type="image/x icon" />
 
     <style>
-     .container{
-        color: red;
-     }
-
-    </style>
-</head>
-<body>
-    <ul class="container">
-        <li style="color: blue;">
-            inline css
-        </li>
-        <li>extranal css</li>
+      .container {
+        /* color: red;
+         */
+         margin: 30px;
+         gap: 20px;
+         
+      }
+      .border {
+        border: 2px solid tomato;
+        border-radius: 5px;
+        box-shadow:10px  10px 20px rgb(183, 4, 189);
+        margin: 20px;
+        /* padding-top: 20px;
+         */
+        display: flex;
+       margin-top: 100px;
+         gap: 30px;
+      }
+      .image{
+        display: flex;
+        gap: 20px;
         
-    </ul>
-    <h1 style="background-color: aquamarine;">Explore Basic Css</h1>
-</body>
+      }
+      .image img{
+        border: 2px solid tomato;
+        border-radius: 50% 50% 0px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul class="container">
+        <li style="color: blue">inline css</li>
+        <li>extranal css</li>
+      </ul>
+      <h1 style="background-color: aquamarine">Explore Basic Css</h1>
+    </div>
+    <div class="container">
+      <p class="border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel
+        exercitationem tempore quo consequatur incidunt et at quae amet ullam,
+        eligendi a maxime iure cumque, facilis qui optio sapiente aliquam!
+      </p>
+      <p class="border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel
+        exercitationem tempore quo consequatur incidunt et at quae amet ullam,
+        eligendi a maxime iure cumque, facilis qui optio sapiente aliquam!
+      </p>
+      <p class="border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel
+        exercitationem tempore quo consequatur incidunt et at quae amet ullam,
+        eligendi a maxime iure cumque, facilis qui optio sapiente aliquam!
+      </p>
+    </div>
+
+
+    <div class="image ">
+        <img src="./prod4.png" alt="">
+        <img src="./prod5.png" alt="">
+        <img src="./prod7.png" alt="">
+        <img src="./prod8.png" alt="">
+    </div>
+  </body>
 </html>
